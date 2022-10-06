@@ -1,0 +1,76 @@
+1. a, б
+
+2. а
+
+3. б 
+
+4. б
+
+5. д
+
+6. в
+
+7. б
+
+8. а, б
+
+9. а
+
+10. б
+
+11. а
+
+12. а
+
+13. а, б, в
+
+14. а, б
+
+15. б
+
+16. в
+
+17. 
+
+list_ = [5, 4, 3, 2, 1, 0]
+for i in  range(0, len(list_)):
+    print(list_[i])
+
+20.
+
+str_ = "Україна"
+list_ = []
+for i in range(0, len(str_)):
+    list_.append(str_[i].upper())
+
+print(''.join(list_))
+
+21. 
+
+a = int(input())
+
+def func_ (x):
+    if x > 7:
+        print("too high")
+    elif x < 7:
+        print("too low")
+    else:
+        print("just right")
+
+func_(a)
+
+22.
+
+movies = {
+    zip(title, plots)
+}
+
+print(dict(movies))
+
+23.
+
+def func():
+    list_ = ["Harry", "Ron", "Hermione"]
+    return list_
+
+print(func())
